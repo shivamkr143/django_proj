@@ -23,4 +23,5 @@ from django.conf.urls import url,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('myapp/',include('first_app.urls')),
+
 ]
